@@ -18,8 +18,13 @@ function print(text) {
  * @returns {boolean}
  */
 function isValid(name) {
-  // ваш код...
+  let name;
+  if (name.trim()! = ''  && name.length !<4){
+    return true;
+  }
+  else  return false;
 }
+
 
 /**
  * Эту функцию трогать не нужно
