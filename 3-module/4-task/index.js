@@ -1,3 +1,7 @@
+
+
 function showSalary(users, age) {
-  // ваш код...
+  return array.reduce
 }
+
+let result = showSalary(user, age)
